@@ -1,0 +1,1199 @@
+Mplus VERSION 7.4
+MUTHEN & MUTHEN
+05/22/2022   3:13 PM
+
+INPUT INSTRUCTIONS
+
+  DATA:
+  file= C:\Users\lplab\Documents\mplus_volumes_w_wts_051922.csv;
+  VARIABLE:
+  ! all variables within data
+  names=
+  offspring_id
+  dam_id
+  maternal_diet
+  offspring_sex
+  postnatal_diet
+  x4mo_scan_protocol
+  x4mo_scanner_type
+  x11mo_scan_protocol
+  x11mo_scanner_type
+  x21mo_scan_protocol
+  x21mo_scanner_type
+  x36mo_scan_protocol
+  x36mo_scanner_type
+  bn_seg_4vol
+  l_lateral_ventricle_4mo
+  l_inf_lat_vent_4mo
+  l_cerebellum_white_matter_4mo
+  l_cerebellum_cortex_4mo
+  l_thalamus_proper_4mo
+  l_caudate_4mo
+  l_putamen_4mo
+  l_pallidum_4mo
+  x3rd_ventricle_4mo
+  x4th_ventricle_4mo
+  brain_stem_4mo
+  l_hpp_4mo
+  l_amy_4mo
+  csf_4mo
+  l_accumbens_area_4mo
+  l_ventral_dc_4mo
+  l_vessel_4mo
+  l_choroid_plexus_4mo
+  r_lateral_ventricle_4mo
+  r_inf_lat_vent_4mo
+  r_cerebellum_white_matter_4mo
+  r_cerebellum_cortex_4mo
+  r_thalamus_proper_4mo
+  r_caudate_4mo
+  r_putamen_4mo
+  r_pallidum_4mo
+  r_hpp_4mo
+  r_amy_4mo
+  r_accumbens_area_4mo
+  r_ventral_dc_4mo
+  r_vessel_4mo
+  r_choroid_plexus_4mo
+  optic_chiasm_4mo
+  cc_anterior_4mo
+  bn_seg_volume_6mo
+  l_lateral_ventricle_6mo
+  l_inf_lat_vent_6mo
+  l_cerebellum_white_matter_6mo
+  l_cerebellum_cortex_6mo
+  l_thalamus_proper_6mo
+  l_caudate_6mo
+  l_putamen_6mo
+  l_pallidum_6mo
+  x3rd_ventricle_6mo
+  x4th_ventricle_6mo
+  brain_stem_6mo
+  l_hpp_6mo
+  l_amy_6mo
+  csf_6mo
+  l_accumbens_area_6mo
+  l_ventral_dc_6mo
+  l_vessel_6mo
+  l_choroid_plexus_6mo
+  r_lateral_ventricle_6mo
+  r_inf_lat_vent_6mo
+  r_cerebellum_white_matter_6mo
+  r_cerebellum_cortex_6mo
+  r_thalamus_proper_6mo
+  r_caudate_6mo
+  r_putamen_6mo
+  r_pallidum_6mo
+  r_hpp_6mo
+  r_amy_6mo
+  r_accumbens_area_6mo
+  r_ventral_dc_6mo
+  r_vessel_6mo
+  r_choroid_plexus_6mo
+  optic_chiasm_6mo
+  cc_anterior_6mo
+  bn_seg_11vol
+  l_lateral_ventricle_11mo
+  l_inf_lat_vent_11mo
+  l_cerebellum_white_matter_11mo
+  l_cerebellum_cortex_11mo
+  l_thalamus_proper_11mo
+  l_caudate_11mo
+  l_putamen_11mo
+  l_pallidum_11mo
+  x3rd_ventricle_11mo
+  x4th_ventricle_11mo
+  brain_stem_11mo
+  l_hpp_11mo
+  l_amy_11mo
+  csf_11mo
+  l_accumbens_area_11mo
+  l_ventral_dc_11mo
+  l_vessel_11mo
+  l_choroid_plexus_11mo
+  r_lateral_ventricle_11mo
+  r_inf_lat_vent_11mo
+  r_cerebellum_white_matter_11mo
+  r_cerebellum_cortex_11mo
+  r_thalamus_proper_11mo
+  r_caudate_11mo
+  r_putamen_11mo
+  r_pallidum_11mo
+  r_hpp_11mo
+  r_amy_11mo
+  r_accumbens_area_11mo
+  r_ventral_dc_11mo
+  r_vessel_11mo
+  r_choroid_plexus_11mo
+  optic_chiasm_11mo
+  cc_anterior_11mo
+  bn_seg_21vol
+  l_lateral_ventricle_21mo
+  l_inf_lat_vent_21mo
+  l_cerebellum_white_matter_21mo
+  l_cerebellum_cortex_21mo
+  l_thalamus_proper_21mo
+  l_caudate_21mo
+  l_putamen_21mo
+  l_pallidum_21mo
+  x3rd_ventricle_21mo
+  x4th_ventricle_21mo
+  brain_stem_21mo
+  l_hpp_21mo
+  l_amy_21mo
+  csf_21mo
+  l_accumbens_area_21mo
+  l_ventral_dc_21mo
+  l_vessel_21mo
+  l_choroid_plexus_21mo
+  r_lateral_ventricle_21mo
+  r_inf_lat_vent_21mo
+  r_cerebellum_white_matter_21mo
+  r_cerebellum_cortex_21mo
+  r_thalamus_proper_21mo
+  r_caudate_21mo
+  r_putamen_21mo
+  r_pallidum_21mo
+  r_hpp_21mo
+  r_amy_21mo
+  r_accumbens_area_21mo
+  r_ventral_dc_21mo
+  r_vessel_21mo
+  r_choroid_plexus_21mo
+  optic_chiasm_21mo
+  cc_anterior_21mo
+  bn_seg_36vol
+  l_lateral_ventricle_36mo
+  l_inf_lat_vent_36mo
+  l_cerebellum_white_matter_36mo
+  l_cerebellum_cortex_36mo
+  l_thalamus_proper_36mo
+  l_caudate_36mo
+  l_putamen_36mo
+  l_pallidum_36mo
+  x3rd_ventricle_36mo
+  x4th_ventricle_36mo
+  brain_stem_36mo
+  l_hpp_36mo
+  l_amy_36mo
+  csf_36mo
+  l_accumbens_area_36mo
+  l_ventral_dc_36mo
+  l_vessel_36mo
+  l_choroid_plexus_36mo
+  r_lateral_ventricle_36mo
+  r_inf_lat_vent_36mo
+  r_cerebellum_white_matter_36mo
+  r_cerebellum_cortex_36mo
+  r_thalamus_proper_36mo
+  r_caudate_36mo
+  r_putamen_36mo
+  r_pallidum_36mo
+  r_hpp_36mo
+  r_amy_36mo
+  r_accumbens_area_36mo
+  r_ventral_dc_36mo
+  r_vessel_36mo
+  r_choroid_plexus_36mo
+  optic_chiasm_36mo
+  cc_anterior_36mo
+  tl_hpp_4mo
+  hp_pro_4mo
+  tl_hpp_11mo
+  hp_pro_11mo
+  tl_hpp_21mo
+  hp_pro_21mo
+  tl_hpp_36mo
+  hp_pro_36mo
+  tl_amy_4mo
+  am_pro_4mo
+  tl_amy_11mo
+  am_pro_11mo
+  tl_amy_21mo
+  am_pro_21mo
+  tl_amy_36mo
+  am_pro_36mo
+  l_amyg_tp1_diff
+  l_amyg_tp2_diff
+  l_amyg_tp3_diff
+  l_hpp_tp1_diff
+  l_hpp_tp2_diff
+  l_hpp_tp3_diff
+  tl_amyg_tp1_diff
+  tl_amyg_tp2_diff
+  tl_amyg_tp3_diff
+  tl_hpp_tp1_diff
+  tl_hpp_tp2_diff
+  tl_hpp_tp3_diff
+  tbs_tp1_diff
+  tbs_tp2_diff
+  tbs_tp3_diff
+  rscl_tbv_4mo
+  rscl_tbv_11mo
+  rscl_tbv_21mo
+  rscl_tbv_36mo
+  weight_avg_4mo
+  weight_avg_11mo
+  weight_avg_21mo
+  weight_avg_36mo
+
+
+  ;
+
+  !CLASSES = c (2);
+
+  !GROUPING = offspring_sex (0 = male 1 = female);
+
+  !GROUPING = postnatal_diet (0 = CTR 1 = WSD);   ! no obs at 4 and 11 months so could not r
+
+  !GROUPING = scan_protocol (1 = oacq_TRIO 2 = nacq_trio 3 = nacq_PRISMA);    ! same issue a
+
+
+
+  ! ID variable
+  idvariable = offspring_id
+  ;
+
+  ! cluster_variable
+  cluster = dam_id
+  !cluster = x4_scnproto
+  !cluster = x4_sctype
+  !cluster = x11_scproto
+  !cluster = x11_sctype
+  !cluster = x21_scproto
+  !cluster = x21_sctype
+  !cluster = x36_scproto
+  !cluster = x36_sctype
+  ;
+
+  ! use variables
+  usevariables =
+
+  !                          grouping variables                   ###################
+
+  !offspring_id
+  !mri_data
+  !dam_id
+  maternal_diet
+  !offspring_sex
+
+
+  !x4_scproto
+  !x4_sctype
+  !x11_scproto
+  !x11_sctype
+  !x21_scproto
+  !x21_sctype
+  !x36_scproto
+  !x36_sctype
+
+
+  !                               4 months                   ###################
+
+  !bn_seg_4vol
+  !l_hpp_4mo
+  !l_amy_4mo
+  !r_hpp_4mo
+  !r_amy_4mo
+  !tl_hpp_4mo
+  !hp_pro_4mo
+  !tl_amy_4mo
+  !amy_pro_4mo
+  !x3_vnt_4mo
+  !x4_vnt_4mo
+  !bn_seg_volume_4mo
+  !l_lateral_ventricle_4mo
+  !l_inf_lat_vent_4mo
+  !l_cerebellum_white_matter_4mo
+  !l_cerebellum_cortex_4mo
+  !l_thalamus_proper_4mo
+  !l_caudate_4mo
+  !l_putamen_4mo
+  !l_pallidum_4mo
+  !x3_vnt_4mo
+  !x4th_ventricle_4mo
+  !brain_stem_4mo
+  !l_hpp_4mo
+  !l_amy_4mo
+  !csf_4mo
+  !l_accumbens_area_4mo
+  !l_ventral_dc_4mo
+  !l_vessel_4mo
+  !l_choroid_plexus_4mo
+  !r_lateral_ventricle_4mo
+  !r_inf_lat_vent_4mo
+  !r_cerebellum_white_matter_4mo
+  !r_cerebellum_cortex_4mo
+  !r_thalamus_proper_4mo
+  !r_caudate_4mo
+  !r_putamen_4mo
+  !r_pallidum_4mo
+  !r_hpp_4mo
+  !r_amy_4mo
+  !r_accumbens_area_4mo
+  !r_ventral_dc_4mo
+  !r_vessel_4mo
+  !r_choroid_plexus_4mo
+  !optic_chiasm_4mo
+  !cc_anterior_4mo
+
+  !                               6 months                   ###################
+
+  !bn_seg_volume_6mo
+  !l_lateral_ventricle_6mo
+  !l_inf_lat_vent_6mo
+  !l_cerebellum_white_matter_6mo
+  !l_cerebellum_cortex_6mo
+  !l_thalamus_proper_6mo
+  !l_caudate_6mo
+  !l_putamen_6mo
+  !l_pallidum_6mo
+  !x3_vnt_6mo
+  !x4th_ventricle_6mo
+  !brain_stem_6mo
+  !l_hpp_6mo
+  !l_amy_6mo
+  !csf_6mo
+  !l_accumbens_area_6mo
+  !l_ventral_dc_6mo
+  !l_vessel_6mo
+  !l_choroid_plexus_6mo
+  !r_lateral_ventricle_6mo
+  !r_inf_lat_vent_6mo
+  !r_cerebellum_white_matter_6mo
+  !r_cerebellum_cortex_6mo
+  !r_thalamus_proper_6mo
+  !r_caudate_6mo
+  !r_putamen_6mo
+  !r_pallidum_6mo
+  !r_hpp_6mo
+  !r_amy_6mo
+  !r_accumbens_area_6mo
+  !r_ventral_dc_6mo
+  !r_vessel_6mo
+  !r_choroid_plexus_6mo
+  !optic_chiasm_6mo
+  !cc_anterior_6mo
+
+
+  !                               11 months                   ###################
+  !bn_seg_11vol
+  !l_hpp_11mo
+  !l_amy_11mo
+  !r_hpp_11mo
+  !r_amy_11mo
+  !tl_hpp_11mo
+  !hp_pro_11mo
+  !tl_amy_11mo
+  !amy_pro_11mo
+  !x3_vnt_11mo
+  !x4_vnt_11mo
+  !bn_seg_volume_11mo
+  !l_lateral_ventricle_11mo
+  !l_inf_lat_vent_11mo
+  !l_cerebellum_white_matter_11mo
+  !l_cerebellum_cortex_11mo
+  !l_thalamus_proper_11mo
+  !l_caudate_11mo
+  !l_putamen_11mo
+  !l_pallidum_11mo
+  !x3_vnt_11mo
+  !x4th_ventricle_11mo
+  !brain_stem_11mo
+  !l_hpp_11mo
+  !l_amy_11mo
+  !csf_11mo
+  !l_accumbens_area_11mo
+  !l_ventral_dc_11mo
+  !l_vessel_11mo
+  !l_choroid_plexus_11mo
+  !r_lateral_ventricle_11mo
+  !r_inf_lat_vent_11mo
+  !r_cerebellum_white_matter_11mo
+  !r_cerebellum_cortex_11mo
+  !r_thalamus_proper_11mo
+  !r_caudate_11mo
+  !r_putamen_11mo
+  !r_pallidum_11mo
+  !r_hpp_11mo
+  !r_amy_11mo
+  !r_accumbens_area_11mo
+  !r_ventral_dc_11mo
+  !r_vessel_11mo
+  !r_choroid_plexus_11mo
+  !optic_chiasm_11mo
+  !cc_anterior_11mo
+
+
+  !                               21 months                   ###################
+
+
+  !bn_seg_21vol
+  !l_hpp_21mo
+  !l_amy_21mo
+  !r_hpp_21mo
+  !r_amy_21mo
+  !tl_hpp_21mo
+  !hp_pro_21mo
+  !tl_amy_21mo
+  !amy_pro_21mo
+  !x3_vnt_21mo
+  !x4_vnt_21mo
+  !bn_seg_volume_21mo
+  !l_lateral_ventricle_21mo
+  !l_inf_lat_vent_21mo
+  !l_cerebellum_white_matter_21mo
+  !l_cerebellum_cortex_21mo
+  !l_thalamus_proper_21mo
+  !l_caudate_21mo
+  !l_putamen_21mo
+  !l_pallidum_21mo
+  !x3_vnt_21mo
+  !x4th_ventricle_21mo
+  !brain_stem_21mo
+  !l_hpp_21mo
+  !l_amy_21mo
+  !csf_21mo
+  !l_accumbens_area_21mo
+  !l_ventral_dc_21mo
+  !l_vessel_21mo
+  !l_choroid_plexus_21mo
+  !r_lateral_ventricle_21mo
+  !r_inf_lat_vent_21mo
+  !r_cerebellum_white_matter_21mo
+  !r_cerebellum_cortex_21mo
+  !r_thalamus_proper_21mo
+  !r_caudate_21mo
+  !r_putamen_21mo
+  !r_pallidum_21mo
+  !r_hpp_21mo
+  !r_amy_21mo
+  !r_accumbens_area_21mo
+  !r_ventral_dc_21mo
+  !r_vessel_21mo
+  !r_choroid_plexus_21mo
+  !optic_chiasm_21mo
+  !cc_anterior_21mo
+
+
+  !                               36 months                   ###################
+
+
+  !bn_seg_36vol
+  !l_hpp_36mo
+  !l_amy_36mo
+  !r_hpp_36mo
+  !r_amy_36mo
+  !tl_hpp_36mo
+  !hp_pro_36mo
+  !tl_amy_36mo
+  !amy_pro_36mo
+  !x3_vnt_36mo
+  !x4_vnt_36mo
+  !bn_seg_volume_36mo
+  !l_lateral_ventricle_36mo
+  !l_inf_lat_vent_36mo
+  !l_cerebellum_white_matter_36mo
+  !l_cerebellum_cortex_36mo
+  !l_thalamus_proper_36mo
+  !l_caudate_36mo
+  !l_putamen_36mo
+  !l_pallidum_36mo
+  !x3_vnt_36mo
+  !x4th_ventricle_36mo
+  !brain_stem_36mo
+  !l_hpp_36mo
+  !l_amy_36mo
+  !csf_36mo
+  !l_accumbens_area_36mo
+  !l_ventral_dc_36mo
+  !l_vessel_36mo
+  !l_choroid_plexus_36mo
+  !r_lateral_ventricle_36mo
+  !r_inf_lat_vent_36mo
+  !r_cerebellum_white_matter_36mo
+  !r_cerebellum_cortex_36mo
+  !r_thalamus_proper_36mo
+  !r_caudate_36mo
+  !r_putamen_36mo
+  !r_pallidum_36mo
+  !r_hpp_36mo
+  !r_amy_36mo
+  !r_accumbens_area_36mo
+  !r_ventral_dc_36mo
+  !r_vessel_36mo
+  !r_choroid_plexus_36mo
+  !optic_chiasm_36mo
+  !cc_anterior_36mo
+  !dv_lhp_4mo
+  !dv_lam_4mo
+  !dv_rhp_4mo
+  !dv_ram_4mo
+  !dv_lhp_11mo
+  !dv_lam_11mo
+  !dv_rhp_11mo
+  !dv_ram_11mo
+  !dv_lhp_21mo
+  !dv_lam_21mo
+  !dv_rhp_21mo
+  !dv_ram_21mo
+  !dv_lhp_36mo
+  !dv_lam_36mo
+  !dv_rhp_36mo
+  !dv_ram_36mo
+  !dvt_hp_4mo
+  !hp_pro_4mo
+  !dvt_hp_11mo
+  !hp_pro_11mo
+  !dvt_hp_21mo
+  !hp_pro_21mo
+  !dvt_hp_36mo
+  !hp_pro_36mo
+  !dvt_am_4mo
+  !am_pro_4mo
+  !dvt_am_11mo
+  !am_pro_11mo
+  !dvt_am_21mo
+  !am_pro_21mo
+  !dvt_am_36mo
+  !am_pro_36mo
+  !dv_v3_4mo
+  !dv_v3_11mo
+  !dv_v3_21mo
+  !dv_v3_36mo
+  !dv_sg_4vol
+  !dv_sg_11vol
+  !dv_sg_21vol
+  !dv_sg_36vol
+  am_xpr_4mo
+  am_xpr_11mo
+  am_xpr_21mo
+  am_xpr_36mo
+  !hp_xpr_4mo
+  !hp_xpr_11mo
+  !hp_xpr_21mo
+  !hp_xpr_36mo
+  !int
+  ;
+
+  !dvt_hp_4mo
+
+
+
+  ! missing variable values
+  missing= .;
+
+
+  DEFINE:
+  int = maternal_diet * offspring_sex ; ! interaction term for mat_diet and offspring_sex
+  !STANDARDIZE
+  dv_sg_4vol = bn_seg_4vol/1000;
+  dv_sg_11vol = bn_seg_11vol/1000;
+  dv_sg_21vol = bn_seg_21vol/1000;
+  dv_sg_36vol =  bn_seg_36vol/1000;
+  !dv_lhp_4mo = l_hpp_4mo/100
+  dv_lam_4mo = l_amy_4mo/100;
+  !dv_rhp_4mo = r_hpp_4mo/100
+  dv_ram_4mo = r_amy_4mo/100;
+  !dv_lhp_11mo = l_hpp_11mo/100
+  dv_lam_11mo = l_amy_11mo/100;
+  !dv_rhp_11mo = r_hpp_11mo/100
+  dv_ram_11mo = r_amy_11mo/100;
+  !dv_lhp_21mo = l_hpp_21mo/100
+  dv_lam_21mo = l_amy_21mo/100;
+  !dv_rhp_21mo = r_hpp_21mo/100
+  dv_ram_21mo = r_amy_21mo/100;
+  !dv_lhp_36mo= l_hpp_36mo/100
+  dv_lam_36mo = l_amy_36mo/100;
+  !dv_rhp_36mo = r_hpp_36mo/100
+  dv_ram_36mo = r_amy_36mo/100;
+  dvt_hp_4mo = tl_hpp_4mo/100;
+  dvt_hp_11mo = tl_hpp_11mo/100;
+  dvt_hp_21mo = tl_hpp_21mo/100;
+  dvt_hp_36mo = tl_hpp_36mo/100;
+  dvt_am_4mo = tl_amy_4mo/100;
+  dvt_am_11mo = tl_amy_11mo/100;
+  dvt_am_21mo = tl_amy_21mo/100;
+  dvt_am_36mo = tl_amy_36mo/100;
+  am_xpr_4mo = am_pro_4mo*100;
+  am_xpr_11mo = am_pro_11mo*100;
+  am_xpr_21mo = am_pro_21mo*100;
+  am_xpr_36mo = am_pro_36mo*100;
+  hp_xpr_4mo = hp_pro_4mo*1000;
+  hp_xpr_11mo = hp_pro_11mo*1000;
+  hp_xpr_21mo = hp_pro_21mo*1000;
+  hp_xpr_36mo = hp_pro_36mo*1000;
+  !dv_v3_4mo = x3_vnt_4mo/100
+  !dv_v3_11mo = x3_vnt_11mo/100
+  !dv_v3_21mo =  x3_vnt_21mo/100
+  !dv_v3_36mo = x3_vnt_36mo/100
+  !;
+
+
+  ANALYSIS:
+
+  estimator = MLR;
+  iterations = 9999999;
+  type = complex;
+  coverage=.00;
+
+
+  OUTPUT:
+
+  tech1
+  tech4
+  !tech8
+  !standardized
+  mod(0)
+  ;
+
+
+  MODEL:
+
+  !%OVERALL%
+  !bn_seg_36vol on maternal_diet;
+
+  !dvt_hp_4mo
+
+  i s | am_xpr_4mo@0 am_xpr_11mo@1
+   am_xpr_21mo@2.43 am_xpr_36mo@4.57;
+
+  !dv_sg_36vol@0;
+
+  !dv_sg_4vol on x4_scproto;
+
+  !dv_sg_11vol on x11_scproto;
+
+  !dv_sg_21vol on x21_scproto;
+
+  !dv_sg_36vol on x36_scproto;
+
+  i s on maternal_diet;
+  !i s on offspring_sex;
+  !i s on int;
+
+
+  !x4_scproto@0;
+
+
+  !i s | dvt_hp_4mo@0 dvt_hp_11mo@.6
+  ! dvt_hp_21mo@1.7 dvt_hp_36mo@3.2;
+
+  !i s | dvt_am_4mo@0 dvt_am_11mo@.6
+  ! dvt_am_21mo@1.7 dvt_am_36mo@3.2;
+
+  !i s |  dv_sg_4vol@0 dv_sg_11vol@1
+  ! dv_sg_21vol@2.43 dv_sg_36vol@4.57;
+
+
+
+  !i s | l_hpp_4mo@0 l_hpp_11mo@.6
+  ! l_hpp_21mo@1.7 l_hpp_36mo@3.2;
+
+  !i s | r_hpp_4mo@0 r_hpp_11mo@.6
+  ! r_hpp_21mo@1.7 r_hpp_36mo@3.2;
+
+  !i s | l_amy_4mo@0 l_amy_11mo@.6
+  ! l_amy_21mo@1.7 l_amy_36mo@3.2;
+
+  !i s | am_xpr_4mo@0 am_xpr_11mo@1
+  ! am_xpr_21mo@2.43 am_xpr_36mo@4.57;
+
+
+
+  !hp_xpr_4mo
+
+  !i s | hp_xpr_4mo@0 hp_xpr_11mo@.6
+  ! hp_xpr_21mo@1.7 hp_xpr_36mo@3.2;
+
+
+  !i s | dv_ram_4mo@0 dv_ram_11mo@1
+  ! dv_ram_21mo@2.43 dv_ram_36mo@4.57;
+
+
+  !i s | dvt_am_4mo@0 dvt_am_11mo@1
+  ! dvt_am_21mo@2.43 dvt_am_36mo@4.57;
+
+  !dv_sg_4vol dv_sg_11vol dv_sg_21vol dv_sg_36vol; ! time varying covariant / more setup bel
+
+  !dv_lam_4mo on dv_sg_4vol;
+
+  !dv_lam_11mo on dv_sg_11vol;
+
+  !dv_lam_21mo on dv_sg_21vol;
+
+  !dv_lam_36mo on dv_sg_36vol;
+
+  !i s | x3_vnt_4mo@0 x3_vnt_11mo@.6
+  ! x3_vnt_21mo@1.7 x3_vnt_36mo@3.2;
+
+  !i s | x3_vnt_4mo@0 x3_vnt_11mo@1
+  ! x3_vnt_21mo@2.43 x3_vnt_36mo@4.57;
+
+
+
+
+  !s@0;
+  !q@0;
+
+
+  !c on maternal_diet;
+
+
+
+*** WARNING
+  Input line exceeded 90 characters. Some input may be truncated.
+  !GROUPING = postnatal_diet (0 = CTR 1 = WSD);   ! no obs at 4 and 11 months so could not ru
+*** WARNING
+  Input line exceeded 90 characters. Some input may be truncated.
+  !GROUPING = scan_protocol (1 = oacq_TRIO 2 = nacq_trio 3 = nacq_PRISMA);    ! same issue as
+*** WARNING
+  Input line exceeded 90 characters. Some input may be truncated.
+  !dv_sg_4vol dv_sg_11vol dv_sg_21vol dv_sg_36vol; ! time varying covariant / more setup belo
+*** WARNING in VARIABLE command
+  Note that only the first 8 characters of variable names are used in the output.
+  Shorten variable names to avoid any confusion.
+*** WARNING
+  Data set contains cases with missing on all variables except
+  x-variables.  These cases were not included in the analysis.
+  Number of cases with missing on all variables except x-variables:  2
+   5 WARNING(S) FOUND IN THE INPUT INSTRUCTIONS
+
+
+
+
+SUMMARY OF ANALYSIS
+
+Number of groups                                                 1
+Number of observations                                          53
+
+Number of dependent variables                                    4
+Number of independent variables                                  1
+Number of continuous latent variables                            2
+
+Observed dependent variables
+
+  Continuous
+   AM_XPR_4MO  AM_XPR_11M  AM_XPR_21M  AM_XPR_36M
+
+Observed independent variables
+   MATERNAL
+
+Continuous latent variables
+   I           S
+
+Variables with special functions
+
+  Cluster variable      DAM_ID
+  ID variable           OFFSPRIN
+
+Estimator                                                      MLR
+Information matrix                                        OBSERVED
+Maximum number of iterations                               9999999
+Convergence criterion                                    0.500D-04
+Maximum number of steepest descent iterations                   20
+Maximum number of iterations for H1                           2000
+Convergence criterion for H1                             0.100D-03
+
+Input data file(s)
+  C:\Users\lplab\Documents\mplus_volumes_w_wts_051922.csv
+
+Input data format  FREE
+
+
+SUMMARY OF DATA
+
+     Number of missing data patterns            11
+     Number of clusters          38
+
+
+
+COVARIANCE COVERAGE OF DATA
+
+Minimum covariance coverage value   0.000
+
+
+     PROPORTION OF DATA PRESENT
+
+
+           Covariance Coverage
+              AM_XPR_4      AM_XPR_1      AM_XPR_2      AM_XPR_3      MATERNAL
+              ________      ________      ________      ________      ________
+ AM_XPR_4       0.585
+ AM_XPR_1       0.453         0.585
+ AM_XPR_2       0.453         0.434         0.623
+ AM_XPR_3       0.472         0.509         0.585         0.887
+ MATERNAL       0.585         0.585         0.623         0.887         1.000
+
+
+
+THE MODEL ESTIMATION TERMINATED NORMALLY
+
+
+
+MODEL FIT INFORMATION
+
+Number of Free Parameters                       11
+
+Loglikelihood
+
+          H0 Value                         306.064
+          H0 Scaling Correction Factor      1.0093
+            for MLR
+          H1 Value                         326.212
+          H1 Scaling Correction Factor      0.9883
+            for MLR
+
+Information Criteria
+
+          Akaike (AIC)                    -590.129
+          Bayesian (BIC)                  -568.456
+          Sample-Size Adjusted BIC        -603.007
+            (n* = (n + 2) / 24)
+
+Chi-Square Test of Model Fit
+
+          Value                             42.176*
+          Degrees of Freedom                     7
+          P-Value                           0.0000
+          Scaling Correction Factor         0.9554
+            for MLR
+
+*   The chi-square value for MLM, MLMV, MLR, ULSMV, WLSM and WLSMV cannot be used
+    for chi-square difference testing in the regular way.  MLM, MLR and WLSM
+    chi-square difference testing is described on the Mplus website.  MLMV, WLSMV,
+    and ULSMV difference testing is done using the DIFFTEST option.
+
+RMSEA (Root Mean Square Error Of Approximation)
+
+          Estimate                           0.308
+          90 Percent C.I.                    0.222  0.401
+          Probability RMSEA <= .05           0.000
+
+CFI/TLI
+
+          CFI                                0.622
+          TLI                                0.460
+
+Chi-Square Test of Model Fit for the Baseline Model
+
+          Value                            103.102
+          Degrees of Freedom                    10
+          P-Value                           0.0000
+
+SRMR (Standardized Root Mean Square Residual)
+
+          Value                              0.920
+
+
+
+MODEL RESULTS
+
+                                                    Two-Tailed
+                    Estimate       S.E.  Est./S.E.    P-Value
+
+ I        |
+    AM_XPR_4MO         1.000      0.000    999.000    999.000
+    AM_XPR_11M         1.000      0.000    999.000    999.000
+    AM_XPR_21M         1.000      0.000    999.000    999.000
+    AM_XPR_36M         1.000      0.000    999.000    999.000
+
+ S        |
+    AM_XPR_4MO         0.000      0.000    999.000    999.000
+    AM_XPR_11M         1.000      0.000    999.000    999.000
+    AM_XPR_21M         2.430      0.000    999.000    999.000
+    AM_XPR_36M         4.570      0.000    999.000    999.000
+
+ I        ON
+    MATERNAL_D        -0.009      0.012     -0.730      0.465
+
+ S        ON
+    MATERNAL_D         0.000      0.002     -0.027      0.978
+
+ S        WITH
+    I                  0.000      0.000     -0.535      0.593
+
+ Intercepts
+    AM_XPR_4MO         0.000      0.000    999.000    999.000
+    AM_XPR_11M         0.000      0.000    999.000    999.000
+    AM_XPR_21M         0.000      0.000    999.000    999.000
+    AM_XPR_36M         0.000      0.000    999.000    999.000
+    I                  0.495      0.009     55.557      0.000
+    S                  0.009      0.002      3.873      0.000
+
+ Residual Variances
+    AM_XPR_4MO         0.001      0.000      3.557      0.000
+    AM_XPR_11M         0.000      0.000      1.546      0.122
+    AM_XPR_21M         0.000      0.000      1.222      0.222
+    AM_XPR_36M         0.000      0.000      2.050      0.040
+    I                  0.001      0.000      3.200      0.001
+    S                  0.000      0.000      0.116      0.908
+
+
+QUALITY OF NUMERICAL RESULTS
+
+     Condition Number for the Information Matrix              0.303E-06
+       (ratio of smallest to largest eigenvalue)
+
+
+MODEL MODIFICATION INDICES
+
+NOTE:  Modification indices for direct effects of observed dependent variables
+regressed on covariates may not be included.  To include these, request
+MODINDICES (ALL).
+
+Minimum M.I. value for printing the modification index     0.000
+
+                                   M.I.     E.P.C.  Std E.P.C.  StdYX E.P.C.
+
+BY Statements
+
+I        BY AM_XPR_4              22.405    -0.069     -0.002       -0.048
+I        BY AM_XPR_1              10.747     0.026      0.001        0.025
+I        BY AM_XPR_2               0.000     0.000      0.000        0.000
+I        BY AM_XPR_3               1.244    -0.014      0.000       -0.013
+S        BY AM_XPR_4              19.754    -3.646     -0.006       -0.111
+S        BY AM_XPR_1              11.092     1.480      0.002        0.062
+S        BY AM_XPR_2               0.077    -0.083      0.000       -0.004
+S        BY AM_XPR_3               0.624    -0.545     -0.001       -0.023
+
+WITH Statements
+
+AM_XPR_1 WITH AM_XPR_4             3.450     0.000      0.000       -0.835
+AM_XPR_2 WITH AM_XPR_4             0.584     0.000      0.000        0.305
+AM_XPR_2 WITH AM_XPR_1             1.394     0.000      0.000        1.152
+AM_XPR_3 WITH AM_XPR_4             0.400     0.000      0.000       -0.164
+AM_XPR_3 WITH AM_XPR_1             0.153     0.000      0.000       -0.158
+AM_XPR_3 WITH AM_XPR_2             0.074     0.000      0.000       -0.604
+
+Means/Intercepts/Thresholds
+
+[ AM_XPR_4 ]                      21.532    -0.033     -0.033       -0.650
+[ AM_XPR_1 ]                      10.936     0.013      0.013        0.344
+[ AM_XPR_2 ]                       0.011     0.000      0.000       -0.008
+[ AM_XPR_3 ]                       0.988    -0.006     -0.006       -0.163
+
+
+TECHNICAL 1 OUTPUT
+
+
+     PARAMETER SPECIFICATION
+
+
+           NU
+              AM_XPR_4      AM_XPR_1      AM_XPR_2      AM_XPR_3      MATERNAL
+              ________      ________      ________      ________      ________
+      1           0             0             0             0             0
+
+
+           LAMBDA
+              I             S             MATERNAL
+              ________      ________      ________
+ AM_XPR_4           0             0             0
+ AM_XPR_1           0             0             0
+ AM_XPR_2           0             0             0
+ AM_XPR_3           0             0             0
+ MATERNAL           0             0             0
+
+
+           THETA
+              AM_XPR_4      AM_XPR_1      AM_XPR_2      AM_XPR_3      MATERNAL
+              ________      ________      ________      ________      ________
+ AM_XPR_4           1
+ AM_XPR_1           0             2
+ AM_XPR_2           0             0             3
+ AM_XPR_3           0             0             0             4
+ MATERNAL           0             0             0             0             0
+
+
+           ALPHA
+              I             S             MATERNAL
+              ________      ________      ________
+      1           5             6             0
+
+
+           BETA
+              I             S             MATERNAL
+              ________      ________      ________
+ I                  0             0             7
+ S                  0             0             8
+ MATERNAL           0             0             0
+
+
+           PSI
+              I             S             MATERNAL
+              ________      ________      ________
+ I                  9
+ S                 10            11
+ MATERNAL           0             0             0
+
+
+     STARTING VALUES
+
+
+           NU
+              AM_XPR_4      AM_XPR_1      AM_XPR_2      AM_XPR_3      MATERNAL
+              ________      ________      ________      ________      ________
+      1         0.000         0.000         0.000         0.000         0.000
+
+
+           LAMBDA
+              I             S             MATERNAL
+              ________      ________      ________
+ AM_XPR_4       1.000         0.000         0.000
+ AM_XPR_1       1.000         1.000         0.000
+ AM_XPR_2       1.000         2.430         0.000
+ AM_XPR_3       1.000         4.570         0.000
+ MATERNAL       0.000         0.000         1.000
+
+
+           THETA
+              AM_XPR_4      AM_XPR_1      AM_XPR_2      AM_XPR_3      MATERNAL
+              ________      ________      ________      ________      ________
+ AM_XPR_4       0.001
+ AM_XPR_1       0.000         0.001
+ AM_XPR_2       0.000         0.000         0.001
+ AM_XPR_3       0.000         0.000         0.000         0.001
+ MATERNAL       0.000         0.000         0.000         0.000         0.000
+
+
+           ALPHA
+              I             S             MATERNAL
+              ________      ________      ________
+      1         0.474         0.016         0.491
+
+
+           BETA
+              I             S             MATERNAL
+              ________      ________      ________
+ I              0.000         0.000         0.000
+ S              0.000         0.000         0.000
+ MATERNAL       0.000         0.000         0.000
+
+
+           PSI
+              I             S             MATERNAL
+              ________      ________      ________
+ I              0.001
+ S              0.000         0.000
+ MATERNAL       0.000         0.000         0.250
+
+
+TECHNICAL 4 OUTPUT
+
+
+     ESTIMATES DERIVED FROM THE MODEL
+
+
+           ESTIMATED MEANS FOR THE LATENT VARIABLES
+              I             S             MATERNAL
+              ________      ________      ________
+      1         0.490         0.009         0.491
+
+
+           S.E. FOR ESTIMATED MEANS FOR THE LATENT VARIABLES
+              I             S             MATERNAL
+              ________      ________      ________
+      1         0.007         0.002         0.069
+
+
+           EST./S.E. FOR ESTIMATED MEANS FOR THE LATENT VARIABLES
+              I             S             MATERNAL
+              ________      ________      ________
+      1        72.234         5.181         7.144
+
+
+           TWO-TAILED P-VALUE FOR ESTIMATED MEANS FOR THE LATENT VARIABLES
+              I             S             MATERNAL
+              ________      ________      ________
+      1         0.000         0.000         0.000
+
+
+           ESTIMATED COVARIANCE MATRIX FOR THE LATENT VARIABLES
+              I             S             MATERNAL
+              ________      ________      ________
+ I              0.001
+ S              0.000         0.000
+ MATERNAL      -0.002         0.000         0.250
+
+
+           S.E. FOR ESTIMATED COVARIANCE MATRIX FOR THE LATENT VARIABLES
+              I             S             MATERNAL
+              ________      ________      ________
+ I              0.000
+ S              0.000         0.000
+ MATERNAL       0.003         0.001         0.049
+
+
+           EST./S.E. FOR ESTIMATED COVARIANCE MATRIX FOR THE LATENT VARIABLES
+              I             S             MATERNAL
+              ________      ________      ________
+ I              3.557
+ S             -0.535         0.116
+ MATERNAL      -0.723        -0.027         5.148
+
+
+           TWO-TAILED P-VALUE FOR ESTIMATED COVARIANCE MATRIX FOR THE LATENT VARIABLES
+              I             S             MATERNAL
+              ________      ________      ________
+ I              0.000
+ S              0.593         0.908
+ MATERNAL       0.470         0.978         0.000
+
+
+           ESTIMATED CORRELATION MATRIX FOR THE LATENT VARIABLES
+              I             S             MATERNAL
+              ________      ________      ________
+ I              1.000
+ S             -0.729         1.000
+ MATERNAL      -0.127        -0.021         1.000
+
+
+           S.E. FOR ESTIMATED CORRELATION MATRIX FOR THE LATENT VARIABLES
+              I             S             MATERNAL
+              ________      ________      ________
+ I              0.000
+ S              2.231         0.000
+ MATERNAL       0.184         0.808         0.000
+
+
+           EST./S.E. FOR ESTIMATED CORRELATION MATRIX FOR THE LATENT VARIABLES
+              I             S             MATERNAL
+              ________      ________      ________
+ I            999.000
+ S             -0.327       999.000
+ MATERNAL      -0.687        -0.026       999.000
+
+
+           TWO-TAILED P-VALUE FOR ESTIMATED CORRELATION MATRIX FOR THE LATENT VARIABLES
+              I             S             MATERNAL
+              ________      ________      ________
+ I              0.000
+ S              0.744         0.000
+ MATERNAL       0.492         0.979         0.000
+
+
+DIAGRAM INFORMATION
+
+  Use View Diagram under the Diagram menu in the Mplus Editor to view the diagram.
+  If running Mplus from the Mplus Diagrammer, the diagram opens automatically.
+
+  Diagram output
+    c:\users\lplab\desktop\training_data_hanna\mri_data_mplus\new_qc_data\lgm_volumes_w_wts_05_22_mw
+
+     Beginning Time:  15:13:57
+        Ending Time:  15:13:58
+       Elapsed Time:  00:00:01
+
+
+
+MUTHEN & MUTHEN
+3463 Stoner Ave.
+Los Angeles, CA  90066
+
+Tel: (310) 391-9971
+Fax: (310) 391-8971
+Web: www.StatModel.com
+Support: Support@StatModel.com
+
+Copyright (c) 1998-2015 Muthen & Muthen
